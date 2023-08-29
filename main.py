@@ -134,3 +134,4 @@ print(blue_beetle_summary[::-1])
 
 ###########################time for a real challenge!!!!##################################
 # last slide
+print("hi")
