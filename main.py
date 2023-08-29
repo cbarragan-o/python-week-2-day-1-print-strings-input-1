@@ -25,6 +25,68 @@
 
 
 ###########################String Practice##################################
+#syntax is the way we write code
+# print("Hello World")
+# name = "John"
+#in other languages, this is different
+# in javascript for example, you define
+#variabes with let or const or var
+#in python, you just give your variables a
+#name and then define it with a value
+word = "python is cool and stuff" #string variable
+print(word)
+print(word[-1])
+print(word[-2])
+print(word[-3])
+#string slicing
+print(word[10:14])
+print(word[19:24])
+print(word[0:6])
+print(word[7:9])
+print(word[15:18])
+print(word[:-1])
+print(len(word)) #tells you the length of the entire string
+print(word[:13])
+print(word[5:])
+#what if i wanted to find a substring?
+#a substring is a word inside of a sentence
+print(word.find("is"))
+print(word.find("and"))
+#how do we uppercase letters
+print(word.upper())
+print(word.capitalize())#capitalizes first letter
+cool = word[10:14]
+print(cool.capitalize())
+print(word.replace("python","javascript"))
+print(word.replace("cool","ugly"))
+
+#challenge
+# find a summary of blue beetle online and create a 
+# variable called blue_beetle_summary and print it
+# hint: google it
+# print the length of the summary
+# upper case the entire summary
+# print the summary
+# print the summary in lowercase
+# replace the word blue with red
+# print the summary
+# string index the word beetle and print it out
+# print the last word of the summary
+# print the summary in reverse
+
+blue_beetle_summary = "Jaime Reyes suddenly finds himself in possession of an ancient relic of alien biotechnology called the Scarab. When the Scarab chooses Jaime to be its symbiotic host, he's bestowed with an incredible suit of armor that's capable of extraordinary and unpredictable powers, forever changing his destiny as he becomes the superhero Blue Beetle."
+print(blue_beetle_summary)
+print(len(blue_beetle_summary))
+print(blue_beetle_summary.upper())
+print(blue_beetle_summary.lower())
+print(blue_beetle_summary.replace("Blue","Red"))
+print(blue_beetle_summary.find("Beetle"))
+beetle = blue_beetle_summary[334:340]
+print(beetle)
+print(blue_beetle_summary[334:])
+print(blue_beetle_summary[::-1])
+
+
 # String Practice #1: try this in repl.it
 # Define a string containing your full name.
 # Print the first 3 letters of your name using string slicing.
@@ -53,6 +115,7 @@
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # What are you learning today?
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
+
 
 # Input Practice #2
 # Write Python code that allows the user to enter their answer, by making them the following question:
